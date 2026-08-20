@@ -12,8 +12,12 @@ export default function LoginPage() {
     login({
       id: "guest-123",
       name: "Dexter",
+      username: "dexter",
+      jobTitle: "Developer",
       email: "Dexter@gmail.com",
-      avatarUrl: "https://i.pravatar.cc/150?u=dexter"
+      avatarUrl: "https://i.pravatar.cc/150?u=dexter",
+      theme: "light",
+      color: "Blue"
     });
     router.push('/workspace');
   };
