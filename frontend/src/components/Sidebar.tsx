@@ -132,7 +132,7 @@ export function Sidebar() {
             {showProfileMenu && (
                 <div
                     className="fixed inset-0 z-[30]"
-                    onClick={() => { setShowProfileMenu(false); setActiveSubMenu('none'); }}
+                    onClick={() => { setShowProfileMenu(false); setActiveSubMenu(null); }}
                 />
             )}
         </aside>
